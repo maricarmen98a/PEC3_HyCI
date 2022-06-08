@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="141.42857mm"
+   height="64.759399mm"
+   viewBox="0 0 141.42857 64.759399"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="113.93997"
+       y="413.55988"
+       width="147.69997"
+       height="174.42662"
+       id="rect20325" />
+    <rect
+       x="170.20662"
+       y="336.19324"
+       width="391.05322"
+       height="317.90659"
+       id="rect13985" />
+    <rect
+       x="-66.113312"
+       y="303.8399"
+       width="167.39328"
+       height="295.3999"
+       id="rect1647" />
+  </defs>
+  <g
+     id="layer3"
+     transform="translate(-45.782181,-78.075333)">
+    <rect
+       style="fill:#000000;stroke-width:0.264583"
+       id="rect29743"
+       width="141.42857"
+       height="64.759399"
+       x="45.782181"
+       y="78.075333"
+       ry="5.0002551" />
+  </g>
+  <g
+     id="layer2"
+     transform="translate(-45.782181,-78.075333)">
+    <rect
+       style="fill:#ff0000;stroke-width:0.264583"
+       id="rect29596"
+       width="40.93985"
+       height="48.383461"
+       x="55.387272"
+       y="85.627953"
+       ry="5.3950119" />
+    <rect
+       style="fill:#ffffff;stroke-width:0.264583"
+       id="rect29740"
+       width="44.05275"
+       height="48.184143"
+       x="134.64301"
+       y="85.409943"
+       ry="4.6054983" />
+  </g>
+  <g
+     id="layer1"
+     transform="translate(-45.782181,-78.075333)">
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,75.530167,1.8421992)"
+       id="text1645"
+       style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect1647);fill:#ffffff;fill-opacity:1;stroke:none"><tspan
+         x="-66.113281"
+         y="479.00726"
+         id="tspan68">C</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,95.680811,-6.3457707)"
+       id="text13983"
+       style="font-style:normal;font-weight:normal;font-size:192px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect13985);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="170.20703"
+         y="511.36078"
+         id="tspan70">P</tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.26458333,0,0,0.26458333,73.605409,3.7031014)"
+       id="text20323"
+       style="font-style:normal;font-weight:normal;font-size:74.6667px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect20325);fill:#000000;fill-opacity:1;stroke:none"><tspan
+         x="113.93945"
+         y="481.68124"
+         id="tspan74"><tspan
+           style="fill:#ffffff"
+           id="tspan72">de</tspan></tspan></text>
+  </g>
+</svg>
