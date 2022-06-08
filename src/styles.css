@@ -141,10 +141,6 @@ header ul li a {
 .front-img img {
     max-width: 100%;
 }
-/* .front-img img {
-    max-width: 600px;
-    max-height: 500px;
-} */
 .informacion-general, .informacion-parrafo, .datos {
     padding: 15px;
     line-height: 1.6;
