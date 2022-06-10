@@ -1,4 +1,3 @@
-import '@justinribeiro/lite-youtube';
 
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
