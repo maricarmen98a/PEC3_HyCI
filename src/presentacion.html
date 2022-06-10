@@ -7,17 +7,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" as="style"
-    onload="this.onload=null;this.rel='stylesheet'" type="font/woff2" crossorigin>
+    onload="this.onload=null;this.rel='stylesheet'" crossorigin>
     <noscript>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet" type="text/css" />
     </noscript>
     <link rel="preload" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css" as="style"
-    onload="this.onload=null;this.rel='stylesheet'" type="font/woff2" crossorigin>
+    onload="this.onload=null;this.rel='stylesheet'"  crossorigin>
     <link rel="preload" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css" as="style"
-    onload="this.onload=null;this.rel='stylesheet'" type="font/woff2" crossorigin>
+    onload="this.onload=null;this.rel='stylesheet'"  crossorigin>
     <link rel="preload" href="/node_modules/animate.css/animate.css" as="style"
     onload="this.onload=null;this.rel='stylesheet'"  crossorigin>
     <link rel="stylesheet" href="styles.css" />
+     <script src="/node_modules/lazyframe/dist/lazyframe.min.js">
+    let elements = document.querySelectorAll(".videoss");
+    lazyframe(elements, {
+  debounce: 250,
+  lazyload: true,
+  autoplay: true,
+
+  // Callbacks
+  onLoad: (lazyframe) => console.log(lazyframe),
+  onAppend: (iframe) => console.log(iframe),
+  onThumbnailLoad: (img) => console.log(img),
+});
+
+    </script> 
+
   </head>
   <body>
     <header>
@@ -188,7 +203,7 @@
       
 
       <div class="video2">
-        <iframe  width="860" height="515" src="https://www.youtube.com/embed/1MzNrX1ZvtQ" title="YouTube video player" loading="lazy" onload="alert('loaded')"></iframe>
+        <iframe class="videoss" width="860" height="515" src="https://www.youtube.com/embed/1MzNrX1ZvtQ" title="YouTube video player" onload="alert('loaded')"></iframe>
       </div>
     </div>
    
