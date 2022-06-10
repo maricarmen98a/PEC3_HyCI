@@ -1,3 +1,4 @@
+lazyframe(".video2");
 
 function toggleMobileMenu(menu) {
     menu.classList.toggle('open');
