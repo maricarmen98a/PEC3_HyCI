@@ -419,8 +419,7 @@ h2 {
     height: auto;
 }
 .caja-grid img {
-    max-width: 70%;
-    max-height: 400px;
+    height: auto;
     margin-left: 18%;
     border-top-left-radius: 20%;
     display: grid;
