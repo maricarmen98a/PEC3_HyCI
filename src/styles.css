@@ -420,7 +420,7 @@ picture img {
 }
 .caja-grid img {
     height: auto;
-    margin-left: 5%;
+    margin-left: 18%;
     border-top-left-radius: 20%;
     display: grid;
     justify-content: center;
@@ -454,6 +454,10 @@ picture img {
     .info-lista, .info-lista2 {
         margin-left: 20%;
         margin-right: 20%;
+    }
+    .caja-grid img {
+        margin-left: 5%;
+
     }
 }
 .video {
