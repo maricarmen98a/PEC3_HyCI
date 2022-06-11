@@ -278,7 +278,9 @@ h2 {
 .acercar {
     margin-top: 40px;
 }
-
+picture img {
+    height: auto;
+}
 .caja-personajes p {
     margin: 40px;
     margin-top: 0;
