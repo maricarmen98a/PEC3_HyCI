@@ -267,9 +267,7 @@ h2 {
     display: grid;    
     justify-content: center;
 }
-.caja-personajes img {
-    max-width: 400px;
-}
+
 .lista div {
     margin-bottom: 20px;
 }
@@ -289,17 +287,13 @@ h2 {
     line-height: 1.6;
 }
 @media screen and (--small-viewport) {
-    .caja-personajes img {
-        max-width: 800px;
-    }
+   
     .lista {
         grid-template-columns: 1fr 1fr;
     }
 }
 @media screen and (--bigger-viewport) {
-    .caja-personajes img {
-        max-width: 800px;
-    }
+   
     .lista {
         grid-template-columns: 1fr 1fr 1fr;
     }

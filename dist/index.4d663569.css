@@ -288,10 +288,6 @@ h2 {
   display: grid;
 }
 
-.caja-personajes img {
-  max-width: 400px;
-}
-
 .lista div {
   margin-bottom: 20px;
 }
@@ -315,20 +311,12 @@ h2 {
 }
 
 @media screen and (min-width: 768px) {
-  .caja-personajes img {
-    max-width: 800px;
-  }
-
   .lista {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media screen and (min-width: 980px) {
-  .caja-personajes img {
-    max-width: 800px;
-  }
-
   .lista {
     grid-template-columns: 1fr 1fr 1fr;
   }
