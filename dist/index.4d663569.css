@@ -435,7 +435,7 @@ h2 {
 
 .img-profesor img {
   max-width: 400px;
-  max-height: 400px;
+  height: auto;
 }
 
 .caja-grid img {
