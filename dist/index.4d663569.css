@@ -35,7 +35,7 @@ header {
   width: 100%;
   height: 80px;
   background-color: #000;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 0 20px;
   display: flex;
   position: sticky;
@@ -139,6 +139,10 @@ header ul li a {
 
   .hamburger-icon {
     display: block;
+  }
+
+  .titulo {
+    display: none;
   }
 }
 
@@ -301,8 +305,8 @@ h2 {
   margin-top: 40px;
 }
 
-.acercar img {
-  max-height: 300px;
+picture img {
+  width: auto;
 }
 
 .caja-personajes p {
@@ -480,6 +484,10 @@ h2 {
     margin-left: 20%;
     margin-right: 20%;
   }
+
+  .caja-grid img {
+    margin-left: 5%;
+  }
 }
 
 .video {
@@ -488,11 +496,12 @@ h2 {
 
 .video2 {
   justify-content: center;
-  margin: 40px;
+  padding: 10px;
   display: flex;
 }
 
 iframe {
+  max-width: 100%;
   border: 0;
 }
 
@@ -529,13 +538,16 @@ iframe {
 }
 
 .phone {
+  width: 100%;
   justify-content: center;
   padding-bottom: 40px;
   display: flex;
 }
 
 .phone img {
-  width: 350px;
+  width: 40%;
+  max-width: 400px;
+  min-width: 275px;
   border-radius: 5%;
 }
 
@@ -695,6 +707,7 @@ footer a {
 
 .presentacion__svg svg {
   max-width: 350px;
+  width: 80%;
 }
 
 .presentacion__svg svg:nth-child(1):hover {
